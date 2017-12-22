@@ -1,0 +1,2422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1915</width>
+    <height>1104</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>1893</width>
+           <height>1080</height>
+          </rect>
+         </property>
+         <widget class="QTabWidget" name="tabWidget">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>1871</width>
+            <height>1061</height>
+           </rect>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab">
+           <attribute name="title">
+            <string>Setup</string>
+           </attribute>
+           <widget class="QGroupBox" name="groupBox_primary_sweep">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>10</y>
+              <width>931</width>
+              <height>1021</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Primary Sweep</string>
+            </property>
+            <widget class="QGroupBox" name="groupBox_primary_device">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>30</y>
+               <width>341</width>
+               <height>331</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <widget class="QLabel" name="label_visaname_1">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>240</y>
+                <width>181</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>VISA name:</string>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="comboBox_visa_1">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>150</y>
+                <width>301</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButton_update_1">
+              <property name="geometry">
+               <rect>
+                <x>240</x>
+                <y>200</y>
+                <width>71</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Update</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButton_select_1">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>200</y>
+                <width>71</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Select</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_chooseVisa_1">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>120</y>
+                <width>201</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Choose  Visa:</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_visa_1">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>270</y>
+                <width>311</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButton_close_1">
+              <property name="geometry">
+               <rect>
+                <x>140</x>
+                <y>200</y>
+                <width>71</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Close</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_device_1">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>10</y>
+                <width>201</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Device:</string>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="comboBox_device_1">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>40</y>
+                <width>301</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <item>
+               <property name="text">
+                <string>Agilent 34460A</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Keithley 2450</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Magnet Model 430</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Yokogawa GS200</string>
+               </property>
+              </item>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_input_1">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>30</y>
+               <width>541</width>
+               <height>271</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <widget class="QLabel" name="label_47">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>220</y>
+                <width>101</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Step Number:</string>
+              </property>
+             </widget>
+             <widget class="QTextEdit" name="textEdit_steps_1">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>40</y>
+                <width>181</width>
+                <height>171</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="cursor" stdset="0">
+               <cursorShape>IBeamCursor</cursorShape>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAsNeeded</enum>
+              </property>
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Start 0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="tabStopWidth">
+               <number>80</number>
+              </property>
+              <property name="cursorWidth">
+               <number>2</number>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_2">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>10</y>
+                <width>191</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Steps, Repeat Step, Peak:</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_steps_1">
+              <property name="geometry">
+               <rect>
+                <x>130</x>
+                <y>220</y>
+                <width>81</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButton_clear_1">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="geometry">
+               <rect>
+                <x>400</x>
+                <y>220</y>
+                <width>71</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Clear</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButton_plot_1">
+              <property name="geometry">
+               <rect>
+                <x>290</x>
+                <y>220</y>
+                <width>71</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Plot</string>
+              </property>
+             </widget>
+             <widget class="QTextEdit" name="textEdit_input_1">
+              <property name="geometry">
+               <rect>
+                <x>230</x>
+                <y>40</y>
+                <width>291</width>
+                <height>171</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>8</pointsize>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="cursor" stdset="0">
+               <cursorShape>IBeamCursor</cursorShape>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAsNeeded</enum>
+              </property>
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="tabStopWidth">
+               <number>80</number>
+              </property>
+              <property name="cursorWidth">
+               <number>2</number>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_3">
+              <property name="geometry">
+               <rect>
+                <x>230</x>
+                <y>10</y>
+                <width>191</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Input:</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_stepplot_1">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>360</y>
+               <width>901</width>
+               <height>651</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Plot</string>
+             </property>
+             <widget class="QWidget" name="widget_1" native="true">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>10</y>
+                <width>901</width>
+                <height>651</height>
+               </rect>
+              </property>
+              <widget class="MatplotlibWidget" name="mplwidget_1">
+               <property name="geometry">
+                <rect>
+                 <x>410</x>
+                 <y>320</y>
+                 <width>16</width>
+                 <height>16</height>
+                </rect>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_condition_1">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>300</y>
+               <width>541</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Condition</string>
+             </property>
+             <widget class="QLabel" name="label_condition_1">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>521</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_secondary_sweep">
+            <property name="geometry">
+             <rect>
+              <x>930</x>
+              <y>10</y>
+              <width>931</width>
+              <height>1021</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Secondary Sweep</string>
+            </property>
+            <widget class="QGroupBox" name="groupBox_secondaey_device">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>30</y>
+               <width>341</width>
+               <height>331</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <widget class="QTabWidget" name="tabWidget_visa">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>90</y>
+                <width>321</width>
+                <height>221</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <widget class="QWidget" name="tab_228">
+               <attribute name="title">
+                <string>Visa1</string>
+               </attribute>
+               <widget class="QLabel" name="label_chooseVisa_2_1">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_1">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QComboBox" name="comboBox_visa_2_1">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_1">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_1">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_1">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_1">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_229">
+               <attribute name="title">
+                <string>Visa2</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_2">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_2">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_2">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_2">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_2">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_2">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_230">
+               <attribute name="title">
+                <string>Visa3</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_3">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_3">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_3">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_3">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_3">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_3">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_3">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_231">
+               <attribute name="title">
+                <string>Visa4</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_4">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_4">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_4">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_4">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_4">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_4">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_4">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_232">
+               <attribute name="title">
+                <string>Visa5</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_5">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_5">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_5">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_5">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_5">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_5">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_5">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_3">
+               <attribute name="title">
+                <string>Visa6</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_6">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_6">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_6">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_6">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_6">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_6">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_6">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_4">
+               <attribute name="title">
+                <string>Visa7</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_7">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_7">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_7">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_7">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_7">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_7">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_7">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_5">
+               <attribute name="title">
+                <string>Visa8</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_8">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_8">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_8">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_8">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_8">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_8">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_8">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_6">
+               <attribute name="title">
+                <string>Visa9</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_9">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_9">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_9">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_9">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_9">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_9">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_9">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="tab_7">
+               <attribute name="title">
+                <string>Visa10</string>
+               </attribute>
+               <widget class="QComboBox" name="comboBox_visa_2_10">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>30</y>
+                  <width>301</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visa_2_10">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>311</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_chooseVisa_2_10">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>201</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Choose  Visa:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_visaname_2_10">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>181</width>
+                  <height>27</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>VISA name:</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_update_2_10">
+                <property name="geometry">
+                 <rect>
+                  <x>230</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Update</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_select_2_10">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Select</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_close_2_10">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>80</y>
+                  <width>71</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Close</string>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+             <widget class="QLabel" name="label_device_2">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>10</y>
+                <width>201</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Device:</string>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="comboBox_device_2">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>40</y>
+                <width>301</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <item>
+               <property name="text">
+                <string>None</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Agilent 34460A</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Keithley 2450</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Magnet Model 430</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Yokogawa GS200</string>
+               </property>
+              </item>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_9">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>300</y>
+               <width>541</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Condition</string>
+             </property>
+             <widget class="QLabel" name="label_condition_2">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>521</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_input_2">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>30</y>
+               <width>541</width>
+               <height>271</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <widget class="QLabel" name="label_48">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>220</y>
+                <width>101</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Step Number:</string>
+              </property>
+             </widget>
+             <widget class="QTextEdit" name="textEdit_steps_2">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>40</y>
+                <width>181</width>
+                <height>171</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="cursor" stdset="0">
+               <cursorShape>IBeamCursor</cursorShape>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAsNeeded</enum>
+              </property>
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Start 0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="tabStopWidth">
+               <number>80</number>
+              </property>
+              <property name="cursorWidth">
+               <number>2</number>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_4">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>10</y>
+                <width>191</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Steps, Repeat Step, Peak:</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_steps_2">
+              <property name="geometry">
+               <rect>
+                <x>130</x>
+                <y>220</y>
+                <width>81</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButton_clear_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="geometry">
+               <rect>
+                <x>400</x>
+                <y>220</y>
+                <width>71</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Clear</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButton_plot_2">
+              <property name="geometry">
+               <rect>
+                <x>290</x>
+                <y>220</y>
+                <width>71</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Plot</string>
+              </property>
+             </widget>
+             <widget class="QTextEdit" name="textEdit_input_2">
+              <property name="geometry">
+               <rect>
+                <x>230</x>
+                <y>40</y>
+                <width>291</width>
+                <height>171</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>8</pointsize>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="cursor" stdset="0">
+               <cursorShape>IBeamCursor</cursorShape>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAsNeeded</enum>
+              </property>
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="tabStopWidth">
+               <number>80</number>
+              </property>
+              <property name="cursorWidth">
+               <number>2</number>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_5">
+              <property name="geometry">
+               <rect>
+                <x>230</x>
+                <y>10</y>
+                <width>191</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Input:</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_stepplot_2">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>360</y>
+               <width>901</width>
+               <height>651</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Plot</string>
+             </property>
+             <widget class="QWidget" name="widget_2" native="true">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>10</y>
+                <width>901</width>
+                <height>651</height>
+               </rect>
+              </property>
+              <widget class="MatplotlibWidget" name="mplwidget_2">
+               <property name="geometry">
+                <rect>
+                 <x>410</x>
+                 <y>320</y>
+                 <width>16</width>
+                 <height>16</height>
+                </rect>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="tab_2">
+           <attribute name="title">
+            <string>Scan</string>
+           </attribute>
+           <widget class="QGroupBox" name="groupBox_primary_sweep_2">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>10</y>
+              <width>931</width>
+              <height>1021</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Primary Sweep</string>
+            </property>
+            <widget class="QGroupBox" name="groupBox">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>170</y>
+               <width>911</width>
+               <height>841</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>GroupBox</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_secondary_sweep_2">
+            <property name="geometry">
+             <rect>
+              <x>930</x>
+              <y>10</y>
+              <width>931</width>
+              <height>1021</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Secondary Sweep</string>
+            </property>
+            <widget class="QTabWidget" name="tabWidget_2">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>160</y>
+               <width>911</width>
+               <height>851</height>
+              </rect>
+             </property>
+             <widget class="QWidget" name="tab_8">
+              <attribute name="title">
+               <string>Tab 1</string>
+              </attribute>
+             </widget>
+             <widget class="QWidget" name="tab_9">
+              <attribute name="title">
+               <string>Tab 2</string>
+              </attribute>
+             </widget>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionArray_Builder">
+   <property name="text">
+    <string>Array Builder</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionAgilent_Single_scan">
+   <property name="text">
+    <string>Single Scan</string>
+   </property>
+  </action>
+  <action name="actionKeithley_Single_scan">
+   <property name="text">
+    <string>Single Scan</string>
+   </property>
+  </action>
+  <action name="actionKeithley__Sweep">
+   <property name="text">
+    <string> Sweep</string>
+   </property>
+  </action>
+  <action name="actionLockIn_Single_Scan">
+   <property name="text">
+    <string>Single Scan</string>
+   </property>
+  </action>
+  <action name="actionResonant_Single_Scan">
+   <property name="text">
+    <string>Single Scan</string>
+   </property>
+  </action>
+  <action name="actionKeithley_Stepper_Single_Scan">
+   <property name="text">
+    <string>Single Scan</string>
+   </property>
+  </action>
+  <action name="actionSee_Visa_List">
+   <property name="text">
+    <string>See Visa List</string>
+   </property>
+  </action>
+  <action name="actionTwo_s_with_Lock_in">
+   <property name="text">
+    <string>Two s with Lock-in</string>
+   </property>
+  </action>
+  <action name="actionSweep_Scan">
+   <property name="text">
+    <string>Sweep Scan</string>
+   </property>
+  </action>
+  <action name="actionLockInSweep">
+   <property name="text">
+    <string>Sweep Scan</string>
+   </property>
+  </action>
+  <action name="actionDouble_Lock_In">
+   <property name="text">
+    <string>Double Lock-In</string>
+   </property>
+  </action>
+  <action name="actionVoltage_Bias">
+   <property name="text">
+    <string>Voltage</string>
+   </property>
+  </action>
+  <action name="actionCurrent_Bias">
+   <property name="text">
+    <string>Current</string>
+   </property>
+  </action>
+  <action name="actionJV_1">
+   <property name="text">
+    <string>Program 1</string>
+   </property>
+  </action>
+  <action name="actionJV_2">
+   <property name="text">
+    <string>Program 2</string>
+   </property>
+  </action>
+  <action name="actionJV_3">
+   <property name="text">
+    <string>Program 3</string>
+   </property>
+  </action>
+  <action name="actionJS_1">
+   <property name="text">
+    <string>Program 1</string>
+   </property>
+  </action>
+  <action name="actionJS_2">
+   <property name="text">
+    <string>Program 2</string>
+   </property>
+  </action>
+  <action name="actionRS_1">
+   <property name="text">
+    <string>Program 1</string>
+   </property>
+  </action>
+  <action name="actionRS_2">
+   <property name="text">
+    <string>Program 2</string>
+   </property>
+  </action>
+  <action name="actionJS_3">
+   <property name="text">
+    <string>Program 3</string>
+   </property>
+  </action>
+  <action name="actionRS_3">
+   <property name="text">
+    <string>Program 3</string>
+   </property>
+  </action>
+  <action name="actionBW_1">
+   <property name="text">
+    <string>Program 1</string>
+   </property>
+  </action>
+  <action name="actionBW_2">
+   <property name="text">
+    <string>Program 2</string>
+   </property>
+  </action>
+  <action name="actionBW_3">
+   <property name="text">
+    <string>Program 3</string>
+   </property>
+  </action>
+  <action name="actionST_1">
+   <property name="text">
+    <string>Program 1</string>
+   </property>
+  </action>
+  <action name="actionST_2">
+   <property name="text">
+    <string>Program 2</string>
+   </property>
+  </action>
+  <action name="actionST_3">
+   <property name="text">
+    <string>Program 3</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MatplotlibWidget</class>
+   <extends>QWidget</extends>
+   <header>matplotlibwidget</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
